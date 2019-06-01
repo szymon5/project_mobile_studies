@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:text="Change Password"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:textSize="30sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:background="@drawable/buttonloginstyle"
+        android:id="@+id/btnChange_pass"
+    />
+    <Button
+        android:text="Clear Measurement"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:textSize="30sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="40dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:background="@drawable/buttoncreateaccountstyle"
+        android:id="@+id/btnClearMes"
+    />
+    <Button
+        android:text="Delete Account"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:textSize="35sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="40dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:background="@drawable/buttonexitstyle"
+        android:id="@+id/btnDeleteAcc"
+    />
+
+</LinearLayout>
